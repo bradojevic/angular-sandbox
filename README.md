@@ -4,7 +4,7 @@ If you need to rebuild image you can use `make build`. If you need to expose dif
 
 You can create container like this:
 
-docker stop angular-sendbox; docker rm angular-sendbox; docker create --name angular-sendbox -p 9000:9000 -p 35729:35729 -v `pwd`/code:/home/yeoman/code angular-sendbox:1.0 && docker start angular-sendbox
+docker stop angular-sendbox; docker rm angular-sendbox; docker create --name angular-sendbox -p 9000:9000 -p 35729:35729 -v `pwd`/code:/home/yeoman/code bradojevic/angular-sendbox && docker start angular-sendbox
 
 To execute and command:
   docker exec -it angular-sendbox bash
