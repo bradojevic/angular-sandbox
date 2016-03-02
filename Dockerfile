@@ -15,10 +15,10 @@ ENV HOME /home/yeoman
 USER yeoman
 
 # Define working directory.
-RUN mkdir -p /home/yeoman/code
+RUN mkdir -p /home/yeoman/src
 RUN echo 'Welcome to angular-sendbox!' > /home/yeoman/welcome
-WORKDIR /home/yeoman/code
-VOLUME ['/home/yeoman/code']
+WORKDIR /home/yeoman/src
+VOLUME ['/home/yeoman/src']
 
 EXPOSE 9000 9001 35729 8000 8080 8081 8082 8083
 
