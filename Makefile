@@ -1,4 +1,4 @@
-IMAGE_NAME := angular-sendbox
+IMAGE_NAME := angular-sandbox
 IMAGE_TAG := 1.0
 
 .PHONY: all clean build
